@@ -1,32 +1,29 @@
 {
-  "name": "headless-strapi",
+  "name": "strapi-nicolas-bordeaux",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
-  "licences": "MIT",
   "scripts": {
-    "develop": "strapi develop",
+    "dev": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
     "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
-    "@strapi/plugin-color-picker": "^4.6.2",
-    "@strapi/plugin-i18n": "4.6.2",
-    "@strapi/plugin-users-permissions": "4.6.2",
-    "@strapi/strapi": "4.6.2",
+    "@strapi/plugin-i18n": "4.7.0",
+    "@strapi/plugin-users-permissions": "4.7.0",
+    "@strapi/strapi": "4.7.0",
     "pg": "8.8.0",
     "strapi-plugin-populate-deep": "^2.0.0",
-    "strapi-plugin-transformer": "^3.0.0",
+    "strapi-plugin-transformer": "^3.0.1",
     "strapi-provider-upload-supabase": "^1.0.0"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "2d6fa5fb-b105-4aaa-b5ba-1e22b6b1ad6a"
+    "uuid": "5c79364a-2a82-41f4-a66a-c0ff79377bf8"
   },
   "engines": {
     "node": ">=14.19.1 <=18.x.x",
